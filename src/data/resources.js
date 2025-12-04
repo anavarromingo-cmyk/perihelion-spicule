@@ -3,49 +3,46 @@ import { BookOpen, FileText, Phone, Globe } from 'lucide-react';
 export const resources = [
     {
         id: 1,
-        category: "Guías Clínicas",
-        icon: FileText,
+        category: "Organizaciones Oficiales",
+        icon: Globe,
         color: "text-blue-600",
         bgColor: "bg-blue-100",
         items: [
-            { id: 101, title: "Guía de Cuidados Paliativos Pediátricos (Ministerio de Sanidad)", url: "#", type: "PDF" },
-            { id: 102, title: "Manejo del Duelo en Profesionales de la Salud", url: "#", type: "PDF" },
-            { id: 103, title: "Protocolo de Sedación Paliativa", url: "#", type: "PDF" }
+            { id: 101, title: "Consejo General de la Psicología de España (COP)", url: "https://www.cop.es", type: "Web" },
+            { id: 102, title: "Sociedad Española de Cuidados Paliativos (SECPAL)", url: "https://www.secpal.org", type: "Web" },
+            { id: 103, title: "Pedpal - Cuidados Paliativos Pediátricos", url: "https://www.pedpal.es", type: "Web" }
         ]
     },
     {
         id: 2,
-        category: "Artículos Académicos",
-        icon: BookOpen,
+        category: "Guías y Documentos",
+        icon: FileText,
         color: "text-emerald-600",
         bgColor: "bg-emerald-100",
         items: [
-            { id: 201, title: "Fatiga por Compasión en Unidades de Cuidados Intensivos Pediátricos", url: "#", type: "Link" },
-            { id: 202, title: "El Impacto del Trabajo en Cuidados Paliativos", url: "#", type: "Link" },
-            { id: 203, title: "Estrategias de Autocuidado para Equipos Médicos", url: "#", type: "Link" }
+            { id: 201, title: "Guía de Cuidados Paliativos Pediátricos (Ministerio de Sanidad)", url: "https://www.sanidad.gob.es/organizacion/sns/planCalidadSNS/pdf/Cuidados_paliativos_pediatricos.pdf", type: "PDF" },
+            { id: 202, title: "Manejo del Duelo (SECPAL)", url: "https://www.secpal.org/biblioteca/guias-y-manuales/", type: "Web" }
         ]
     },
     {
         id: 3,
-        category: "Apoyo y Contacto",
-        icon: Phone,
-        color: "text-rose-600",
-        bgColor: "bg-rose-100",
+        category: "Artículos de Interés",
+        icon: BookOpen,
+        color: "text-indigo-600",
+        bgColor: "bg-indigo-100",
         items: [
-            { id: 301, title: "Línea de Ayuda al Profesional (24/7)", url: "#", type: "Teléfono" },
-            { id: 302, title: "Asociación Española de Cuidados Paliativos (SECPAL)", url: "#", type: "Web" },
-            { id: 303, title: "Grupo de Apoyo Mutuo Online", url: "#", type: "Comunidad" }
+            { id: 301, title: "Fatiga por Compasión en Profesionales", url: "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1130-52742017000100006", type: "Artículo" },
+            { id: 302, title: "Autocuidado en Cuidados Paliativos", url: "https://medicina-paliativa.com", type: "Web" }
         ]
     },
     {
         id: 4,
-        category: "Herramientas Web",
-        icon: Globe,
-        color: "text-indigo-600",
-        bgColor: "bg-indigo-100",
+        category: "Contacto y Apoyo",
+        icon: Phone,
+        color: "text-rose-600",
+        bgColor: "bg-rose-100",
         items: [
-            { id: 401, title: "Calculadora de Opioides", url: "#", type: "Tool" },
-            { id: 402, title: "Escalas de Evaluación del Dolor Pediátrico", url: "#", type: "Tool" }
+            { id: 401, title: "Línea de Ayuda al Profesional (COP)", url: "https://www.cop.es", type: "Contacto" }
         ]
     }
 ];
