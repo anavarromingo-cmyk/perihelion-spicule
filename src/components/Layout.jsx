@@ -92,6 +92,14 @@ const Layout = () => {
                 <main className="flex-1 py-6 px-4 sm:px-6 md:py-8 md:px-8 mt-16 md:mt-0">
                     <Outlet />
                 </main>
+
+                <footer className="bg-white border-t border-slate-200 py-6 mt-8">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                        <p className="text-slate-500 text-sm">
+                            &copy; 2025 Alvaro Navarro. Licencia Creative Commons Atribución-NoComercial (CC BY-NC).
+                        </p>
+                    </div>
+                </footer>
             </div>
         </div>
     );
