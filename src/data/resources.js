@@ -20,8 +20,8 @@ export const resources = [
         color: "text-emerald-600",
         bgColor: "bg-emerald-100",
         items: [
-            { id: 201, title: "Guía de Cuidados Paliativos Pediátricos (Ministerio de Sanidad)", url: "https://www.sanidad.gob.es/organizacion/sns/planCalidadSNS/pdf/Cuidados_paliativos_pediatricos.pdf", type: "PDF" },
-            { id: 202, title: "Manejo del Duelo (SECPAL)", url: "https://www.secpal.org/biblioteca/guias-y-manuales/", type: "Web" }
+            { id: 201, title: "Guía de Práctica Clínica CP Pediátricos (Sanidad 2022)", url: "https://www.sanidad.gob.es/organizacion/sns/planCalidadSNS/pdf/Guia_Cuidados_Paliativos_Pediatricos.pdf", type: "PDF" },
+            { id: 202, title: "Guías y Manuales SECPAL", url: "https://www.secpal.org/biblioteca/guias-y-manuales/", type: "Web" }
         ]
     },
     {
@@ -31,8 +31,8 @@ export const resources = [
         color: "text-indigo-600",
         bgColor: "bg-indigo-100",
         items: [
-            { id: 301, title: "Fatiga por Compasión en Profesionales", url: "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1130-52742017000100006", type: "Artículo" },
-            { id: 302, title: "Autocuidado en Cuidados Paliativos", url: "https://medicina-paliativa.com", type: "Web" }
+            { id: 301, title: "Fatiga por Compasión (SciELO)", url: "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1130-52742017000100006", type: "Artículo" },
+            { id: 302, title: "Autocuidado en el Profesional (SEC)", url: "https://secardiologia.es/multimedia/blog/12297-autocuidado-del-profesional-sanitario", type: "Web" }
         ]
     },
     {
